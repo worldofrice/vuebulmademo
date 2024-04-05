@@ -32,7 +32,7 @@ let messages = ref([
 
 <template>
     <div>
-        <MessageComponent v-for="(item, index) in messages" :tFitle="item.title" :message="item.message"
+        <MessageComponent v-for="(item, index) in messages" :title="item.title" :message="item.message"
             :color="item.color" />
     </div>
 </template>
