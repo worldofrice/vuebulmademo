@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "scraper": "nodemon ./bin/terminal.js",
-    "inquirer": "nodemon ./bin/inquirer.js"
+    "scraper": "node ./bin/terminal.js",
+    "inquirer": "node ./bin/inquirer.js"
   },
   "dependencies": {
     "axios": "^1.6.5",
